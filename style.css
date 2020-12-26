@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(2.jpg) center center fixed ; 
+    
+    background-size: cover;
+}
+
+
+.container{
+    /* border: 10px solid red; */
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.container h2{
+    font-size: 52px;
+    width: 100%;
+    border-bottom: 2px solid rgb(173, 255, 47,0.6);
+    margin: 10px 2px;
+    padding: 10px;
+}
+
+.box{
+    margin: 45px 0px;
+    padding: 5px;
+    /* border: 2px solid green; */
+    width: 100%;
+    
+}
+.box input{
+    background: none;
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-bottom: 2px solid rgb(87, 255, 87,0.2);
+}
+
+#submit{
+    cursor: pointer;
+    outline: none;
+    padding: 7px;
+    width: 40%;
+    margin: 12px 0px;
+    border-radius: 10px;
+    /* border: 2px solid rgb(87, 235, 112); */
+    background: none;
+    color: white;
+
+    border: none;
+    border-bottom: 2px solid rgb(84, 226, 84);
+}
+
+::placeholder{
+    color: white;
+    opacity: 0.6;
+}
+
+#submit:hover{
+    background: white;
+    color: green;
+    opacity: 0.3;
+}
+
